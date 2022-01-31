@@ -27,3 +27,23 @@ if(timeOfDay<1200){
     currentMeal = 'Pan Seared Chicken and Steamed Veggies'
 }
 console.log(currentMeal)
+
+//W3 schools says there are no integers in JS. This is a number without a decimal. 
+
+let randInt = Math.floor(Math.random()*10)
+
+if(randInt<2 && randInt>0){
+    console.log('\"Beatles\"')
+}
+else if(randInt>3 && randInt<5){
+    console.log('\"Stones\"')
+}
+else if(randInt>6 && randInt<8){
+    console.log('\"Floyd\"')
+}
+else if(randInt==9 || randInt==10){
+    console.log('\"Hendrix\"')
+}
+else {
+    console.log('\"Neil Young\"')
+}
