@@ -1,10 +1,10 @@
-let dayOfWeek = 'Monday';
+let dayOfWeek = 'Monday'
 
-console.log(dayOfWeek);
+console.log(dayOfWeek)
 
-dayOfWeek = 'Friday';
+dayOfWeek = 'Friday'
 
-console.log(`I can\'t wait for ${dayOfWeek}!`);
+console.log(`I can\'t wait for ${dayOfWeek}!`)
 
 let animalInput = prompt('What is your favorite animal?')
 
@@ -16,8 +16,8 @@ alert(`I've never seen a ${colorInput} ${animalInput}!`)
 //Favorite Lunch: Chicken Sandwich
 //Favorite Dinner: Pan seared chicken breast with steamed veggies.
 
-let timeOfDay = '1800';
-let currentMeal = '';
+let timeOfDay = '1800'
+let currentMeal = ''
 
 if(timeOfDay<1200){
     currentMeal  = 'Breakfast Burrito'
@@ -60,4 +60,26 @@ for(let greeting = 0; greeting !=5; greeting++){
     console.log('hello')
     console.log('goodbye')
 }
+
+function printMovieName(){
+    let myFavoriteMovie = 'Demon Slayer: Kimetsu no Yaiba'
+    console.log(myFavoriteMovie)
+}
+
+printMovieName()
+
+function usersBandPrompt(){
+    let inputBand = prompt('Please enter your favorite band\'s name.')
+    return inputBand
+}
+
+let usersChosenBand = usersBandPrompt()
+console.log(usersChosenBand)
+
+function concertDisplay(musicalAct){
+    let myStreet = prompt('Enter the street you live on.')
+    console.log(`It would be great if ${musicalAct} played a show on ${myStreet}!`)
+}
+
+concertDisplay(usersChosenBand)
 
