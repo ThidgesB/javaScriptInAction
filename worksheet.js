@@ -47,3 +47,17 @@ else if(randInt==9 || randInt==10){
 else {
     console.log('\"Neil Young\"')
 }
+
+for(let i=0; i != 7; i++){
+    console.log('Javascript is cool!')
+}
+
+for(let number = 0; number != 11; number++){
+    console.log(number)
+}
+
+for(let greeting = 0; greeting !=5; greeting++){
+    console.log('hello')
+    console.log('goodbye')
+}
+
