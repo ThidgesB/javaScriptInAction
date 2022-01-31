@@ -21,7 +21,7 @@ let currentMeal = ''
 
 if(timeOfDay<1200){
     currentMeal  = 'Breakfast Burrito'
-} else if(timeOfDay>=1200 & timeOfDay<=1700){
+} else if(timeOfDay>=1200 && timeOfDay<=1700){
     currentMeal = 'Chicken Sandwich'
 } else if(timeOfDay>1700){
     currentMeal = 'Pan Seared Chicken and Steamed Veggies'
