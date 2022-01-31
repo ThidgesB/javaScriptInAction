@@ -83,3 +83,33 @@ function concertDisplay(musicalAct){
 
 concertDisplay(usersChosenBand)
 
+let desktopItems = ['Humidifier', 'Inhaler', 'PS4 Controller']
+console.log(desktopItems[1])
+
+desktopItems.push('Infinity Gauntlet')
+
+for(let i = 0; i < desktopItems.length; i++){
+    console.log(desktopItems[i])
+}
+
+let magicNumber = Math.floor(Math.random()*100)
+let guess = 0
+
+while(guess != magicNumber){
+    guess = prompt('Try to guess what number I\'m thinking of!')
+    if(guess<magicNumber){
+        console.log('Too low!')
+        if(guess>magicNumber-10){
+            console.log('Getting Warmer!')
+        }
+    }
+    else if(guess>magicNumber){
+        console.log('Too high!')
+            if(guess<magicNumber+10){
+                console.log('Getting Warmer!')
+            }
+    }
+    else if(guess==magicNumber){
+        console.log(`${magicNumber} is the correct number! Congratulations!!!`)
+    }
+}
